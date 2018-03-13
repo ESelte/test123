@@ -2,7 +2,7 @@ from tkinter import *
 def beregn_lån():
     # Tilordner lånefaktor utifra om personen er i ett forhold og bruttoinntekt
     if (int(forhold.get()) == 1):
-        if (int(brutto.get()) < 300000):
+        if (int(brutto.get()) < 300050):
             lånefaktor = 0
         else:
             if (int(brutto.get()) <= 450000):
